@@ -1,0 +1,79 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>University Website Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="course.html">COURSE</a></li>
+         <li><a href="blog.html">BLOG</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    <h1 class="abt">About Us</h1>
+</div>
+<!--  about us content-->
+
+<div class="abt-us">
+        <h1>We are the world's largest university</h1>
+</div>
+<div class="about-col">
+    <img src="img/about.jpeg">
+ </div>
+ <div class="row">
+        <p>Grab top companies interview opportunities in this fullstack software development bootcamp.
+            Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+           Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp.
+           Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+          Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp.
+          Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+         Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp.
+         Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+        Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp.
+        Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+       Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp.
+       Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+      Training in Adobe Photoshop, Illustrator.Grab top companies interview opportunities in this fullstack software development bootcamp
+      Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+     Training in Adobe Photoshop, Illustrator.</p>
+     <a href="" class="hero-btn red-btn">Explore Now</a>
+ </div>
+
+<!--Footer-->
+<div class="footer">
+    <h4>About Us</h4>
+    <p>Grab top companies interview opportunities in this fullstack software development bootcamp.<br>
+        Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.<br>
+       Training in Adobe Photoshop, Illustrator.</p>
+       <div class="icon">
+        <img src="icon/facebook-icon.png">
+        <img src="icon/instagram-icon.png">
+        <img src="icon/linkedin-icon.png">
+        <img src="icon/twitter-icon.png">
+       </div>
+</div>
+    
+  <!-- javasript for toggle menu-->    
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+ </script>      
+</body>
+</html>

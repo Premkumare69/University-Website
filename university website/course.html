@@ -1,0 +1,107 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>University Website Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="sub-header">
+    <nav>
+        <a href="index.html"><img src="img/logo.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+         <li><a href="index.html">HOME</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="course.html">COURSE</a></li>
+         <li><a href="blog.html">BLOG</a></li>
+         <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+         </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+    <h1 class="abt">Our course</h1>
+</div>
+
+<!--course-->
+<div class="course">
+    <h1>Course We Offer</h1>
+    <p>Learn to create responsive website, graphic design,digital art, interactive design at Arena Animation.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Grab top companies interview opportunities in this fullstack software development bootcamp.
+                Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+               Training in Adobe Photoshop, Illustrator.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Grab top companies interview opportunities in this fullstack software development bootcamp.
+                Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+              Training in Adobe Photoshop, Illustrator.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Grab top companies interview opportunities in this fullstack software development bootcamp.
+                Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.
+               Training in Adobe Photoshop, Illustrator.</p>
+        </div>
+    </div>
+</div>
+
+<!-- facilities-->
+<div class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Teach to create responsive website, graphic design,digital art, interactive design at Arena 
+        Animation</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/library.jpeg">
+                <h3>World Class Library</h3>
+                <p>Teach to create responsive website, graphic design,digital art, interactive design at Arena 
+                    Animation</p>
+           </div>
+           <div class="facilities-col">
+            <img src="img/basketball.jpeg">
+            <h3>Largest Playground</h3>
+            <p>Teach to create responsive website, graphic design,digital art, interactive design at Arena 
+                Animation</p>
+       </div>
+       <div class="facilities-col">
+        <img src="img/cafe.jpeg">
+        <h3>Tasty And Healthy Food</h3>
+        <p>Teach to create responsive website, graphic design,digital art, interactive design at Arena 
+            Animation</p>
+   </div>
+       </div>
+</div>
+
+<!--Footer-->
+<div class="footer">
+    <h4>About Us</h4>
+    <p>Grab top companies interview opportunities in this fullstack software development bootcamp.<br>
+        Get theoretical & practical coding experience with bootcamp in Java, Python or Full Stack.<br>
+       Training in Adobe Photoshop, Illustrator.</p>
+       <div class="icon">
+        <img src="icon/facebook-icon.png">
+        <img src="icon/instagram-icon.png">
+        <img src="icon/linkedin-icon.png">
+        <img src="icon/twitter-icon.png">
+       </div>
+</div>
+    
+  <!-- javasript for toggle menu-->    
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+ </script>      
+</body>
+</html>
